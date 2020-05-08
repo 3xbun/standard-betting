@@ -18,6 +18,23 @@
     <title>Standard Betting - {{ title }}</title>
 </head>
 <body>
+    <nav class="nav">
+        <div class="container">
+            <img src="{{url_for('static', filename='img/standard-logo.png')}}" class="nav-logo" alt="standard-logo"> 
+            <ul class="nav-links">
+                <li><a href="#">Match</a></li>
+                <li><a href="#">Result</a></li>
+                <li>|</li>
+                <li><a href="#" class="btn-join">Join</a></li>
+                <li><a href="#" class="btn-login">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="container">
     {% block content %} {% endblock %}
+    </div>
 </body>
 </html>

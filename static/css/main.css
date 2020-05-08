@@ -9,4 +9,67 @@
 body {
   font-family: 'Prompt', sans-serif;
 }
+
+.container {
+  width: 85vw;
+  margin: auto;
+}
+
+.nav {
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-logo {
+  height: 5em;
+}
+
+.nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav .nav-links li {
+  margin: 1em;
+  list-style: none;
+}
+
+.nav .nav-links li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.3em;
+}
+
+.nav .nav-links .btn-join {
+  padding: 0.3em 1.2em;
+  color: #FFFFFF;
+  background-color: #67ACEF;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 2em;
+}
+
+.nav .nav-links .btn-login {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0.3em 1em;
+  color: #C192DC;
+  border: 2px solid #C192DC;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  border-radius: 2em;
+}
 /*# sourceMappingURL=main.css.map */
